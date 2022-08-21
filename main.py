@@ -34,7 +34,7 @@ def change(token):
 
 
 f = open("tokens.txt", "r")
-times = 0
+times = 1
 for line in f:
      token = ""
      if combotype == "1":
@@ -51,7 +51,10 @@ for line in f:
        if res == 401:
           print('- Token is dead: ' + token)
        else:
-          print(res)
+         if res == 403:
+            print('- Token is banned: ' + token)
+         else:
+           print(res)
     
 
 
