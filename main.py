@@ -21,11 +21,11 @@ def change(token):
     }
     body = {"bio": about}
     
-    # Send the friend request
+    
     res = r.patch(url, headers=headers, json=body)
     
 
-    #print the response
+    
 
     
     
