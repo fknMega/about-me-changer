@@ -6,7 +6,7 @@
   <a href="https://www.python.org">
     <img src="https://img.shields.io/badge/Python-3.9-informational.svg">
   </a>
-  <a href="https://github.com/AstraaDev">
+  <a href="https://github.com/fknMega">
     <img src="https://img.shields.io/github/downloads/fknMega/about-me-changer/total.svg">
   </a>
 </p>
